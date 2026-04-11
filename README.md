@@ -30,7 +30,9 @@ https://ankiweb.net/shared/info/1321136162?cb=1775920447065
 The " みたい" Family of degree 1,2,3
 
 <img width="979" height="623" alt="image" src="https://github.com/user-attachments/assets/106e3aae-3a6f-413d-b236-fce2b0c9a969" />
+Video Link for degree 2
 https://github.com/user-attachments/assets/01ecc6cf-03b4-4220-b0d1-26857b3ef7c2
+Video Link for degree 3
 https://github.com/user-attachments/assets/2b9c75aa-e750-413a-bc37-0b184a35c306
 
 ---
@@ -42,7 +44,10 @@ https://github.com/user-attachments/assets/2b9c75aa-e750-413a-bc37-0b184a35c306
 * **Network Filtering:** Display specific sub-networks to focus on particular nuances.
 * **Browser Integration:** Access a global overview or a detailed single-view directly within the Anki browser.
 
+Big Graph Demo Video click link
 https://github.com/user-attachments/assets/635b9d71-c994-43cc-bddb-f8bd3170f4fc
+<img width="645" height="614" alt="image" src="https://github.com/user-attachments/assets/2d311315-ba58-455c-a3bb-81a7acbd0592" />
+
 
 ### 2. Efficiency & "The Surface"
 * **Bulk Grading:** On Desktop, it is recommended to use the [Advanced Browser Add-on](https://ankiweb.net/shared/info/1021636467) for bulk grading ("Good"). 
