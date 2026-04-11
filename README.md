@@ -1,3 +1,5 @@
+
+
 # JLPT Grammar Graph Database
 
 This is not a traditional Anki deck. It is a **relational grammar database** designed to mirror how the human brain actually stores information: through connections, not lists. 
@@ -22,7 +24,14 @@ Traditional learning is often siloed by JLPT levels. This database breaks those 
 ### The "Family Tree" (Relation Degree)
 You can explore these connections through a visual graph. This allows you to see the "surface" of Japanese grammar while simultaneously digging into the deep-rooted connections.
 
-🔗 **[View the Relation Degree Graph (Interactive Dummy Link)](#)** *(Replace the '#' with your actual link later)*
+🔗 **[View the Relation Degree Graph]([#](https://ankiweb.net/shared/info/1321136162?cb=1775920447065))** *(Replace the '#' with your actual link later)*
+https://ankiweb.net/shared/info/1321136162?cb=1775920447065
+
+The " みたい" Family of degree 1,2,3
+
+<img width="979" height="623" alt="image" src="https://github.com/user-attachments/assets/106e3aae-3a6f-413d-b236-fce2b0c9a969" />
+https://github.com/user-attachments/assets/01ecc6cf-03b4-4220-b0d1-26857b3ef7c2
+https://github.com/user-attachments/assets/2b9c75aa-e750-413a-bc37-0b184a35c306
 
 ---
 
@@ -33,14 +42,15 @@ You can explore these connections through a visual graph. This allows you to see
 * **Network Filtering:** Display specific sub-networks to focus on particular nuances.
 * **Browser Integration:** Access a global overview or a detailed single-view directly within the Anki browser.
 
-> ![Placeholder: Image of the Grammar Network Graph](https://via.placeholder.com/800x400?text=Grammar+Network+Graph+Placeholder)
+https://github.com/user-attachments/assets/635b9d71-c994-43cc-bddb-f8bd3170f4fc
 
 ### 2. Efficiency & "The Surface"
 * **Bulk Grading:** On Desktop, it is recommended to use the [Advanced Browser Add-on](https://ankiweb.net/shared/info/1021636467) for bulk grading ("Good"). 
 * **Quick Reference:** Each entry focuses on the essentials via [JLPT Sensei](https://jlptsensei.com), allowing you to grasp a point in ~3 minutes.
 * **Custom Notes:** While the core is a database, there is dedicated space for your own personal mnemonics and insights.
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/607b23d8-eadf-4214-90f2-2c7eec3fea9c" />
+<img width="1366" height="727" alt="image" src="https://github.com/user-attachments/assets/616827be-fb1f-4a2d-8d34-7550f6a094b0" />
 
-> ![Placeholder: Image of the Card Layout and Browser View](https://via.placeholder.com/800x400?text=Card+Layout+and+Browser+View+Placeholder)
 
 ### 3. The "Effortless" Goal
 Grammar is the core of language. Understanding it is one thing; decompressing it in real-time is another. 
