@@ -24,7 +24,7 @@ Traditional learning is often siloed by JLPT levels. This database breaks those 
 ### The "Family Tree" (Relation Degree)
 You can explore these connections through a visual graph. This allows you to see the "surface" of Japanese grammar while simultaneously digging into the deep-rooted connections.
 
-🔗 **[View the Relation Degree Graph]([#](https://ankiweb.net/shared/info/1321136162?cb=1775920447065))** *(Replace the '#' with your actual link later)*
+🔗 **[View the Relation Degree Graph]([#](https://ankiweb.net/shared/info/1321136162?cb=1775920447065))** 
 https://ankiweb.net/shared/info/1321136162?cb=1775920447065
 
 The " みたい" Family of degree 1,2,3
