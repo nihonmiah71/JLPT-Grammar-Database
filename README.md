@@ -1,3 +1,9 @@
+# Disclaimer
+
+Due to filesize issues the deck with audiofiles can be found here https://drive.google.com/file/d/1P3xBSHHB26fl5I7XyeRaTjwXtzGfPcpA/view?usp=sharing
+
+The light version without the audiofiles is here
+
 # JLPT Grammar Graph Database
 
 This is not a traditional Anki deck. It is a **relational grammar database** designed to mirror how the human brain actually stores information: through connections, not lists. 
