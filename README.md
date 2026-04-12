@@ -23,7 +23,7 @@ Traditional learning is often siloed by JLPT levels. This database breaks those 
 ### The "Family Tree" (Relation Degree)
 You can explore these connections through a visual graph. This allows you to see the "surface" of Japanese grammar while simultaneously digging into the deep-rooted connections.
 
-🔗 **[View the Relation Degree Graph](https://ankiweb.net/shared/info/1321136162?cb=1775920447065)** (AnkiWeb ID: 1321136162)
+🔗 **[View the Relation Degree Graph](https://ankiweb.net/shared/info/1321136162)** (AnkiWeb ID: 1321136162)
 
 This add-on serves as the engine for exploration:
 * **Dynamic Tagging:** It scans your database for connected grammar points across multiple levels (degrees).
@@ -74,8 +74,9 @@ The deck features a sophisticated, triple-layered audio system using Microsoft E
 
 ---
 
-## 🛠 How to Use (Relation Crawler)
+## 🛠 How to Use 
 
+### 1. The Relation Crawler (Creating Clusters)
 To utilize the relational structure and create custom study clusters, follow these steps in the Anki Browser:
 
 1. **Select Cards:** Highlight one or more "base" cards (grammar points you want to explore from).
@@ -86,6 +87,17 @@ To utilize the relational structure and create custom study clusters, follow the
     * **Lesson Overview:** Display a clean list of all grammar points in the cluster.
     * **Filtered Deck:** Automatically create a study session for the found cluster.
 4. **Interactive Learning:** Use the direct links on the back of each card to jump to related points and compare nuances.
+
+### 2. Mobile Immersion (Learn On-the-Go)
+You can take your study away from the screen by extracting the audio from the clusters you just built. By combining the Crawler with the Audio Extractor, you can listen to related grammar families purely through audio.
+
+* **Required Add-on: Audio Extractor from Selected Cards** – [AnkiWeb ID 348642953](https://ankiweb.net/shared/info/348642953)
+
+**Workflow for Mobile Learning:**
+1. **Filter your Cluster:** Use the Relation Crawler to gather a specific grammar family.
+2. **Select the Cards:** Highlight the clustered cards in the Anki Browser.
+3. **Extract Audio:** Use the Audio Extractor add-on (`Edit` -> `Auswahl: Audio exportieren`) to batch-download the complete triple-layered neural audio (Title, Construction, and Examples) for those specific cards.
+4. **Transfer to Phone:** Move the downloaded MP3 files to your smartphone. You can now passively listen to the grammar clusters in sequence while commuting, walking, or working out!
 
 ---
 
