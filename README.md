@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/2b9c75aa-e750-413a-bc37-0b184a35c306
 
 ---
 
-## 🚀 Key Features
+## 🚀 Key Features (Enhanced Version)
 
 ### 1. Visual Graph & Filtering
 * **Erbbaum Visualization:** View a network of related grammar points with adjustable degrees of kinship.
@@ -53,18 +53,24 @@ Big Graph Demo Video click link:
 https://github.com/user-attachments/assets/635b9d71-c994-43cc-bddb-f8bd3170f4fc
 <img width="645" height="614" alt="image" src="https://github.com/user-attachments/assets/2d311315-ba58-455c-a3bb-81a7acbd0592" />
 
-### 2. Efficiency & "The Surface"
+### 2. Smart Construction & Sentence Parsing
+* **Structural Blueprint:** Each card now features a dedicated **Construction** section, visualizing exactly how the grammar point connects to verbs, nouns, and adjectives.
+* **Example Context:** High-quality example sentences provide immediate context, highlighting the grammar point in real-world usage.
+
+### 3. Automated Neural Audio Queue
+The deck features a sophisticated, triple-layered audio system using Microsoft Edge Neural TTS for ultra-natural immersion:
+1. **Title Audio:** Hear the grammar point and its meaning immediately.
+2. **Construction Audio:** Auditory reinforcement of the connection rules.
+3. **Example Audio:** Native-speed playback of all example sentences.
+*All audio files are played in a seamless, automated sequence (Title → Construction → Examples) to maximize efficiency.*
+
+### 4. Efficiency & "The Surface"
 * **Bulk Grading:** On Desktop, it is recommended to use the [Advanced Browser Add-on](https://ankiweb.net/shared/info/1021636467) for bulk grading ("Good"). 
 * **Quick Reference:** Each entry focuses on the essentials via [JLPT Sensei](https://jlptsensei.com), allowing you to grasp a point in ~3 minutes.
 * **Custom Notes:** Dedicated space for your own personal mnemonics and insights.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/607b23d8-eadf-4214-90f2-2c7eec3fea9c" />
 <img width="1366" height="727" alt="image" src="https://github.com/user-attachments/assets/616827be-fb1f-4a2d-8d34-7550f6a094b0" />
-
-### 3. The "Effortless" Goal
-Grammar is the core of language. Understanding it is one thing; decompressing it in real-time is another. 
-* **Speed:** This deck optimizes your reading speed—the ultimate benchmark for passing the JLPT.
-* **Side Effects:** Improved listening comprehension is a natural byproduct. Once grammar becomes effortless, skimming large bodies of text becomes possible.
 
 ---
 
@@ -75,11 +81,11 @@ To utilize the relational structure and create custom study clusters, follow the
 1. **Select Cards:** Highlight one or more "base" cards (grammar points you want to explore from).
 2. **Start the Crawler:** Press `Ctrl + Alt + R`.
 3. **Configure the Search:**
-    * **Depth (Degree):** Choose how many "steps" away from the original card the crawler should look (e.g., Degree 1 for direct neighbors, Degree 2 for neighbors of neighbors).
-    * **Search Log:** Choose if you want to see a detailed technical log of found/missed links.
-    * **Lesson Overview:** Choose to display a clean list of all grammar points found in the cluster.
-    * **Filtered Deck:** Choose to automatically create a filtered deck for an immediate study session of the found points.
-4. **Navigate & Compare:** Use the direct links on the back of each card to jump to related points and see how they differ in nuance.
+    * **Depth (Degree):** Choose how many "steps" away from the original card the crawler should look.
+    * **Search Log:** Toggle technical logs for link discovery.
+    * **Lesson Overview:** Display a clean list of all grammar points in the cluster.
+    * **Filtered Deck:** Automatically create a study session for the found cluster.
+4. **Interactive Learning:** Use the direct links on the back of each card to jump to related points and compare nuances.
 
 ---
 
