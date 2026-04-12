@@ -87,8 +87,8 @@ Take your study away from the screen by combining the Crawler with the Audio Ext
 
 **Workflow for Mobile Learning:**
 1. **Filter your Cluster:** Gather a grammar family using the Relation Crawler.
-2. **Extract Audio:** Use the Audio Extractor (`Edit` -> `Auswahl: Audio exportieren`) to batch-download the audio for those cards.
-3. **Mobile Study:** Listen to the files on your phone while commuting.
+2. **Extract Audio:** Use the Audio Extractor (`Edit` -> **"Selection: Export Audio"**) to batch-download the audio for those cards.
+3. **Mobile Study:** Listen to the files on your phone while commuting or working out.
 4. **⚠️ IMPORTANT (Bulk Grading):** Since you learned the material offline via audio, you must sync your progress manually. Go back to the Anki Browser, select the cards you've listened to, and use the **[Advanced Browser Bulk Grader](https://ankiweb.net/shared/info/1021636467)** to mark them as **"Good"**. This is essential to keep your SRS schedule accurate!
 
 ---
