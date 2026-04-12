@@ -1,4 +1,4 @@
-
+in order to view the statistict like last review another addon is necessary
 
 # JLPT Grammar Graph Database
 
