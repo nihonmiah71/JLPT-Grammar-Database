@@ -79,7 +79,7 @@ The deck features a sophisticated, triple-layered audio system using Microsoft E
 To utilize the relational structure and create custom study clusters, follow these steps in the Anki Browser:
 
 1. **Select Cards:** Highlight one or more "base" cards (grammar points you want to explore from).
-2. **Start the Crawler:** Press `Ctrl + Alt + R`. Or go to the `Edit` Submenu and then press Tag _Process Degree Relations
+2. **Start the Crawler:** Press `Ctrl + Alt + R`. Or go to the `Edit` Submenu and then press `Tag _Process Degree Relations`
 3. **Configure the Search:**
     * **Depth (Degree):** Choose how many "steps" away from the original card the crawler should look.
     * **Search Log:** Toggle technical logs for link discovery.
