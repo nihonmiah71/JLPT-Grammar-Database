@@ -4,7 +4,7 @@ This is not a traditional Anki deck. It is a **relational grammar database** des
 
 Instead of treating grammar points as isolated objects, this system visualizes the relationships between them as an **interconnected "Family Tree" (Erbbaum)** with adjustable degrees of relation.
 
-## ⚠️ Core Requirements
+## 🔷 System Prerequisites
 
 To use this deck as intended (navigating between related cards, maintaining the link structure, and viewing progress data), you **must** install the following Anki add-ons:
 
@@ -30,16 +30,6 @@ This add-on serves as the engine for exploration:
 * **Cluster Creation:** It generates tags for entire "theme families," allowing you to study related concepts (e.g., all nuances of *~mitai*) as a single block.
 * **Interactive Visualization:** Map out how one concept branches into others across different JLPT levels.
 
-The " みたい" Family of degree 1, 2, 3:
-
-<img width="979" height="623" alt="image" src="https://github.com/user-attachments/assets/106e3aae-3a6f-413d-b236-fce2b0c9a969" />
-
-Video Link for degree 2:
-https://github.com/user-attachments/assets/01ecc6cf-03b4-4220-b0d1-26857b3ef7c2
-
-Video Link for degree 3:
-https://github.com/user-attachments/assets/2b9c75aa-e750-413a-bc37-0b184a35c306
-
 ---
 
 ## 🚀 Key Features (Enhanced Version)
@@ -47,62 +37,40 @@ https://github.com/user-attachments/assets/2b9c75aa-e750-413a-bc37-0b184a35c306
 ### 1. Visual Graph & Filtering
 * **Erbbaum Visualization:** View a network of related grammar points with adjustable degrees of kinship.
 * **Network Filtering:** Display specific sub-networks to focus on particular nuances.
-* **Browser Integration:** Access a global overview or a detailed single-view directly within the Anki browser.
-
-Big Graph Demo Video click link:
-https://github.com/user-attachments/assets/635b9d71-c994-43cc-bddb-f8bd3170f4fc
-<img width="645" height="614" alt="image" src="https://github.com/user-attachments/assets/2d311315-ba58-455c-a3bb-81a7acbd0592" />
 
 ### 2. Smart Construction & Sentence Parsing
-* **Structural Blueprint:** Each card now features a dedicated **Construction** section, visualizing exactly how the grammar point connects to verbs, nouns, and adjectives.
-* **Example Context:** High-quality example sentences provide immediate context, highlighting the grammar point in real-world usage.
+* **Structural Blueprint:** Each card features a dedicated **Construction** section, visualizing exactly how the grammar point connects to verbs, nouns, and adjectives.
 
 ### 3. Automated Neural Audio Queue
-The deck features a sophisticated, triple-layered audio system using Microsoft Edge Neural TTS for ultra-natural immersion:
+The deck features a sophisticated, triple-layered audio system using Microsoft Edge Neural TTS:
 1. **Title Audio:** Hear the grammar point and its meaning immediately.
 2. **Construction Audio:** Auditory reinforcement of the connection rules.
 3. **Example Audio:** Native-speed playback of all example sentences.
-*All audio files are played in a seamless, automated sequence (Title → Construction → Examples) to maximize efficiency.*
-
-### 4. Efficiency & "The Surface"
-* **Bulk Grading:** On Desktop, it is recommended to use the [Advanced Browser Add-on](https://ankiweb.net/shared/info/1021636467) for bulk grading ("Good"). 
-* **Quick Reference:** Each entry focuses on the essentials via [JLPT Sensei](https://jlptsensei.com), allowing you to grasp a point in ~3 minutes.
-* **Custom Notes:** Dedicated space for your own personal mnemonics and insights.
-
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/607b23d8-eadf-4214-90f2-2c7eec3fea9c" />
-<img width="1366" height="727" alt="image" src="https://github.com/user-attachments/assets/616827be-fb1f-4a2d-8d34-7550f6a094b0" />
 
 ---
 
 ## 🛠 How to Use 
 
 ### 1. The Relation Crawler (Creating Clusters)
-To utilize the relational structure and create custom study clusters, follow these steps in the Anki Browser:
+1. **Select Cards:** Highlight base cards in the Anki Browser.
+2. **Start the Crawler:** Press `Ctrl + Alt + R` or use `Edit -> Tag _Process Degree Relations`.
+3. **Configure:** Choose your search depth (Degree) and create a **Filtered Deck**.
 
-1. **Select Cards:** Highlight one or more "base" cards (grammar points you want to explore from).
-2. **Start the Crawler:** Press `Ctrl + Alt + R`. Or go to the `Edit` Submenu and then press `Tag _Process Degree Relations`
-3. **Configure the Search:**
-    * **Depth (Degree):** Choose how many "steps" away from the original card the crawler should look.
-    * **Search Log:** Toggle technical logs for link discovery.
-    * **Lesson Overview:** Display a clean list of all grammar points in the cluster.
-    * **Filtered Deck:** Automatically create a study session for the found cluster.
-4. **Interactive Learning:** Use the direct links on the back of each card to jump to related points and compare nuances.
+### 2. Mobile Immersion & Syncing Progress
+Take your study away from the screen by combining the Crawler with the Audio Extractor.
 
-### 2. Mobile Immersion (Learn On-the-Go)
-You can take your study away from the screen by extracting the audio from the clusters you just built. By combining the Crawler with the Audio Extractor, you can listen to related grammar families purely through audio.
-
-* **Required Add-on: Audio Extractor from Selected Cards** – [AnkiWeb ID 348642953](https://ankiweb.net/shared/info/348642953)
+* **Required Add-on: Audio Extractor** – [AnkiWeb ID 348642953](https://ankiweb.net/shared/info/348642953)
 
 **Workflow for Mobile Learning:**
-1. **Filter your Cluster:** Use the Relation Crawler to gather a specific grammar family.
-2. **Select the Cards:** Highlight the clustered cards in the Anki Browser.
-3. **Extract Audio:** Use the Audio Extractor add-on (`Edit` -> `Auswahl: Audio exportieren`) to batch-download the complete triple-layered neural audio (Title, Construction, and Examples) for those specific cards.
-4. **Transfer to Phone:** Move the downloaded MP3 files to your smartphone. You can now passively listen to the grammar clusters in sequence while commuting, walking, or working out!
+1. **Filter your Cluster:** Gather a grammar family using the Relation Crawler.
+2. **Extract Audio:** Use the Audio Extractor (`Edit` -> `Auswahl: Audio exportieren`) to batch-download the audio for those cards.
+3. **Mobile Study:** Listen to the files on your phone while commuting.
+4. **⚠️ IMPORTANT (Bulk Grading):** After you finish your audio session, don't forget to sync your progress! Since you learned the material offline, go back to the Anki Browser, select the cards you just listened to, and use the **[Advanced Browser Bulk Grader](https://ankiweb.net/shared/info/1021636467)** to mark them as **"Good"**. This ensures your SRS schedule stays up to date with your actual knowledge.
 
 ---
 
 ## 📝 Philosophy
-"Relations are abstract and not always mutual. Every grammar point is a standalone object, but the more connections you understand, the broader your mastery becomes. It’s like climbing a mountain—the air gets thin, but the view (and the ability to use the language) becomes crystal clear."
+"Relations are abstract and not always mutual. Every grammar point is a standalone object, but the more connections you understand, the broader your mastery becomes."
 
 ---
 *Developed for learners who want a deeper, faster, and more logical approach to Japanese mastery.*
