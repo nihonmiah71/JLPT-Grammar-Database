@@ -6,10 +6,13 @@ Instead of treating grammar points as isolated objects, this system visualizes t
 
 ## 🔷 System Prerequisites
 
-To use this deck as intended (navigating between related cards, maintaining the link structure, and viewing progress data), you **must** install the following Anki add-ons:
+To use this deck as intended (navigating between related cards, maintaining the link structure, viewing graphs, and exporting audio for mobile study), you **must** install the following Anki add-ons:
 
 * **Link Cards Add-on:** [AnkiWeb ID 1077002392](https://ankiweb.net/shared/info/1077002392) – Enables jumping between linked cards.
-* **Anki-Info (Extended Statistics):** [AnkiWeb ID 744725736](https://ankiweb.net/shared/info/744725736) – **Required** to display card-specific statistics like "Last Review" and "Total Reviews" within the template.
+* **Anki-Info (Extended Statistics):** [AnkiWeb ID 744725736](https://ankiweb.net/shared/info/744725736) – Required to display card-specific statistics within the template.
+* **Relation Degree Graph & Crawler:** [AnkiWeb ID 1321136162](https://ankiweb.net/shared/info/1321136162) – **CRITICAL:** This is the dual-purpose engine used for both visualizing the grammar network and crawling connections to generate **Filtered Decks**.
+* **Audio Extractor from Selected Cards:** [AnkiWeb ID 348642953](https://ankiweb.net/shared/info/348642953) – Used to export audio for offline mobile immersion.
+* **Advanced Browser (Bulk Grader):** [AnkiWeb ID 1021636467](https://ankiweb.net/shared/info/1021636467) – Essential for syncing progress after offline study sessions.
 
 ---
 
@@ -67,18 +70,18 @@ The deck features a sophisticated, triple-layered audio system using Microsoft E
 * **Bulk Grading:** On Desktop, it is recommended to use the [Advanced Browser Add-on](https://ankiweb.net/shared/info/1021636467) for bulk grading ("Good"). 
 * **Quick Reference:** Each entry focuses on the essentials via [JLPT Sensei](https://jlptsensei.com), allowing you to grasp a point in ~3 minutes.
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/607b23d8-eadf-4214-90f2-2c7eec3fea9c" />
-<img width="1366" height="727" alt="image" src="https://github.com/user-attachments/assets/616827be-fb1f-4a2d-8d34-7550f6a094b0" />
-
 ---
 
 ## 🛠 How to Use 
 
-### 1. The Relation Crawler (Creating Clusters)
+### 1. The Relation Crawler & Filtered Decks
+This process uses the **Relation Degree Graph & Crawler** add-on to build your study sets.
+
 1. **Select Cards:** Highlight base cards in the Anki Browser.
 2. **Start the Crawler:** Press `Ctrl + Alt + R` or use `Edit -> Tag _Process Degree Relations`.
-3. **Configure:** Choose your search depth (Degree) and create a **Filtered Deck**.
-4. **Interactive Learning:** Use the direct links on the back of each card to jump to related points.
+3. **Configure Cluster:** Choose your search depth (Degree).
+4. **Create Study Session:** Use the add-on's built-in feature to automatically generate a **Filtered Deck** for the identified grammar cluster.
+5. **Interactive Learning:** Use the direct links on the back of each card to jump to related points.
 
 ### 2. Mobile Immersion & Syncing Progress
 Take your study away from the screen by combining the Crawler with the Audio Extractor.
@@ -86,7 +89,7 @@ Take your study away from the screen by combining the Crawler with the Audio Ext
 * **Required Add-on: Audio Extractor** – [AnkiWeb ID 348642953](https://ankiweb.net/shared/info/348642953)
 
 **Workflow for Mobile Learning:**
-1. **Filter your Cluster:** Gather a grammar family using the Relation Crawler.
+1. **Filter your Cluster:** Gather a grammar family using the Relation Crawler (same add-on mentioned above).
 2. **Extract Audio:** Use the Audio Extractor (`Edit` -> **"Selection: Export Audio"**) to batch-download the audio for those cards.
 3. **Mobile Study:** Listen to the files on your phone while commuting or working out.
 4. **⚠️ IMPORTANT (Bulk Grading):** Since you learned the material offline via audio, you must sync your progress manually. Go back to the Anki Browser, select the cards you've listened to, and use the **[Advanced Browser Bulk Grader](https://ankiweb.net/shared/info/1021636467)** to mark them as **"Good"**. This is essential to keep your SRS schedule accurate!
