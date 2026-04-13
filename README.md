@@ -4,6 +4,8 @@ Due to filesize issues the deck with audiofiles can be found on https://drive.go
 
 The light version without the audiofiles is here
 
+You cannot rename the deck otherwise the crawler addon will not work
+
 # JLPT Grammar Graph Database
 
 This is not a traditional Anki deck. It is a **relational grammar database** designed to mirror how the human brain actually stores information: through connections, not lists. 
