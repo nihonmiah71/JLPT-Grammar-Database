@@ -6,6 +6,9 @@ The light version without the audiofiles is here
 
 You cannot rename the deck otherwise the crawler addon will not work
 
+Note: For advanced learners
+To practice your listening skills i.e. to drop the english audio or the construction audio, you can just copy the deck in anki, and then in the copied deck and then go to the browser select all notes rightclick go on notes, click find and replace and then instruct to change the string "sound" to something else like "s@und" in the desired fields and the audio will not be played anymore and you can just focus on the japanese listening
+
 # JLPT Grammar Graph Database
 
 This is not a traditional Anki deck. It is a **relational grammar database** designed to mirror how the human brain actually stores information: through connections, not lists. 
